@@ -1,0 +1,43 @@
+{
+  "contacts": {
+    "customer_care_toll_free": "1800-XXX-XXXX (24x7)",
+    "email_support": "support@securebank.in",
+    "branch_locator": "www.securebank.in/branches",
+    "ombudsman_portal": "cms.rbi.org.in"
+  },
+  "escalation_path": [
+    {
+      "level": 1,
+      "handler": "Branch Manager",
+      "sla": "10 working days",
+      "trigger": "Initial complaint not resolved by front-line support"
+    },
+    {
+      "level": 2,
+      "handler": "Nodal Officer",
+      "sla": "15 working days",
+      "trigger": "Branch Manager resolution unsatisfactory"
+    },
+    {
+      "level": 3,
+      "handler": "Banking Ombudsman (RBI)",
+      "sla": "30 days",
+      "trigger": "Bank fails to resolve within 30 days",
+      "portal": "cms.rbi.org.in",
+      "rbi_ref": "RBI Integrated Ombudsman Scheme 2021"
+    }
+  ],
+  "critical_escalation_triggers": [
+    "Fraud or unauthorised transactions",
+    "Account blocked or frozen",
+    "Failed high-value UPI/NEFT/RTGS (above ₹50,000)",
+    "Repeated complaint not resolved",
+    "Threats or abusive behaviour toward customer"
+  ],
+  "response_sla_by_channel": {
+    "toll_free_call": "Immediate (24x7)",
+    "email": "Within 2 business days",
+    "branch_visit": "Same day for critical issues",
+    "online_portal": "Within 3 business days"
+  }
+}

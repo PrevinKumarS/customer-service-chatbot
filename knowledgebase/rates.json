@@ -1,0 +1,9 @@
+{
+  "repo_rate": "6.25% (as of Q1 2025)",
+  "base_lending_rate": "9.35%",
+  "upi_daily_limit": "₹1,00,000 per transaction (₹2,00,000 for UPI Lite)",
+  "neft_timing": "24x7 including holidays",
+  "rtgs_min": "₹2,00,000 minimum",
+  "tds_on_fd": "10% if interest > ₹40,000/year (₹50,000 for senior citizens)",
+  "atm_withdrawal_limit": "₹25,000 per day (Classic), ₹50,000 (Premium)"
+}

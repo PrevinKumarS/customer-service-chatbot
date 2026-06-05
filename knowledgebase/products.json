@@ -1,0 +1,75 @@
+{
+  "savings_account": {
+    "name": "SecureBank Savings Account",
+    "interest_rate": "3.5% p.a. (up to ₹1L), 4.0% (above ₹1L)",
+    "min_balance": "₹1,000 (metro), ₹500 (rural)",
+    "features": ["Free UPI/NEFT", "10 free ATM txns/month", "Sweep-in FD"],
+    "zero_balance": "Available under PM Jan Dhan Yojana"
+  },
+  "fixed_deposit": {
+    "name": "SecureBank Fixed Deposit",
+    "rates": {
+      "7-45 days": "4.50%",
+      "46-90 days": "5.25%",
+      "91-180 days": "5.75%",
+      "181-364 days": "6.50%",
+      "1-2 years": "7.10%",
+      "2-3 years": "7.25%",
+      "3-5 years": "7.00%",
+      "5-10 years": "6.75%"
+    },
+    "senior_citizen_extra": "0.50% additional on all tenures",
+    "min_amount": "₹1,000",
+    "premature_withdrawal": "Allowed with 1% penalty on applicable rate",
+    "loan_against_fd": "Up to 90% of FD value at FD rate + 2%"
+  },
+  "home_loan": {
+    "name": "SecureHome Loan",
+    "interest_rates": {
+      "floating": "8.75% – 9.50% p.a. (EBLR-linked)",
+      "fixed_2yr": "9.25% p.a. then converts to floating"
+    },
+    "max_amount": "₹5 crore",
+    "max_tenure": "30 years",
+    "ltv": "Up to 80% of property value",
+    "processing_fee": "0.5% of loan amount (max ₹15,000)",
+    "prepayment": "No penalty on floating rate (RBI mandate)",
+    "tax_benefit": "Section 80C (principal), Section 24b (interest up to ₹2L)"
+  },
+  "personal_loan": {
+    "name": "SecurePersonal Loan",
+    "interest_rates": "10.99% – 18.00% p.a.",
+    "max_amount": "₹40 lakh",
+    "tenure": "12 – 60 months",
+    "min_salary": "₹25,000/month",
+    "processing_fee": "1% – 2% of loan amount",
+    "disbursal": "Within 24 hours for pre-approved customers"
+  },
+  "credit_card": {
+    "variants": {
+      "Classic": "No annual fee, 1% cashback",
+      "Gold": "₹999/year, 2% cashback + lounge access",
+      "Platinum": "₹2,499/year, 3% cashback + travel insurance + concierge"
+    },
+    "credit_limit": "2x – 4x monthly income",
+    "billing_cycle": "Monthly, due date 18 days post statement",
+    "min_payment": "5% of outstanding or ₹200, whichever is higher",
+    "late_payment_fee": "₹500 – ₹1,200 based on outstanding amount",
+    "interest_on_revolving": "3.5% per month (42% p.a.) on unpaid balance"
+  },
+  "car_loan": {
+    "name": "SecureAuto Loan",
+    "interest_rates": "8.50% – 11.00% p.a.",
+    "max_amount": "100% on-road price (new), 85% (used < 3 years)",
+    "tenure": "12 – 84 months",
+    "processing_fee": "0.5% of loan amount"
+  },
+  "education_loan": {
+    "name": "SecureEdu Loan",
+    "interest_rates": "9.50% – 13.00% p.a.",
+    "max_amount": "₹1.5 crore (abroad), ₹75 lakh (India)",
+    "moratorium": "Course duration + 1 year",
+    "tax_benefit": "Section 80E — full interest deduction for 8 years",
+    "collateral": "Not required up to ₹7.5 lakh"
+  }
+}

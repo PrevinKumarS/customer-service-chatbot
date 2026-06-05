@@ -1,0 +1,48 @@
+{
+  "upi_failure": {
+    "auto_reversal_sla": "T+1 business day (NPCI mandate)",
+    "customer_reporting_window": "Within 30 days of transaction",
+    "zero_liability": "Full refund if reported within 3 days of fraud discovery",
+    "escalation": "NPCI escalation if unresolved after T+5",
+    "process": "File complaint → Get UTR → Bank investigates with NPCI → Reversal to source account"
+  },
+  "fraud_reporting": {
+    "immediate_action": "Call 1800-XXX-XXXX → Request card/account block → File FIR",
+    "zero_liability_window": "Reported within 3 working days → Full refund",
+    "partial_liability": "Reported 4-7 days → Up to ₹10,000 liability on customer",
+    "rbi_guideline": "RBI Circular RBI/2017-18/15 — Customer Protection in Unauthorised Transactions"
+  },
+  "kyc_norms": {
+    "documents": [
+      "Aadhaar (address + identity)",
+      "PAN (mandatory for accounts)",
+      "Passport/VoterId (alternate)"
+    ],
+    "video_kyc": "Available for digital account opening",
+    "re_kyc": "Required every 2 years for high-risk customers, 10 years for low-risk",
+    "rbi_ref": "RBI KYC Master Direction 2016 (updated 2024)"
+  },
+  "loan_foreclosure": {
+    "floating_rate": "Zero prepayment penalty (RBI RBI/2014-15/60)",
+    "fixed_rate": "2% penalty on outstanding principal",
+    "noc": "Issued within 7 working days of final payment",
+    "cibil_update": "Within 30 days of closure (as per CIC norms)",
+    "collateral_return": "Original documents returned within 15 days"
+  },
+  "grievance_redressal": {
+    "level1": "Branch Manager — resolve within 10 working days",
+    "level2": "Nodal Officer — resolve within 15 working days",
+    "level3": "Banking Ombudsman (RBI) — if unresolved after 30 days",
+    "ombudsman_portal": "cms.rbi.org.in",
+    "rbi_ref": "RBI Integrated Ombudsman Scheme 2021"
+  },
+  "nri_banking": {
+    "account_types": {
+      "NRE": "Tax-free in India, freely repatriable",
+      "NRO": "Taxable, limited repatriation",
+      "FCNR": "Foreign currency deposits"
+    },
+    "kyc": "Passport + Visa + Overseas address proof",
+    "remittance": "No limit on inward remittance; outward up to USD 1M/year under LRS"
+  }
+}

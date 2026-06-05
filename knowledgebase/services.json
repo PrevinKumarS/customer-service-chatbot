@@ -1,0 +1,13 @@
+{
+  "fixed_deposits": {
+    "standard_rate": "7.10% p.a.",
+    "senior_citizen_rate": "7.60% p.a.",
+    "minimum_tenure": "7 days",
+    "maximum_tenure": "10 years"
+  },
+  "savings_accounts": {
+    "interest_rate": "3.5% p.a.",
+    "minimum_balance": "$500",
+    "features": ["Debit Card", "Net Banking", "Mobile App Access"]
+  }
+}
