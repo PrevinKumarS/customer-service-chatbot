@@ -75,4 +75,4 @@ if prompt := st.chat_input("How can I help you today?"):
 
 # Footer
 st.divider()
-st.caption("SecureBank AI can make mistakes. Check important info. PII is automatically filtered.")
+st.caption("SecureBank AI can make mistakes. PII is automatically filtered.")

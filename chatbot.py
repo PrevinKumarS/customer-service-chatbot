@@ -74,7 +74,7 @@ class BankingChatbot:
 
         try:
             response = client.chat.completions.create(
-                model="gpt-4o-2024-05-13", # Or gpt-3.5-turbo
+                model="gpt-4o-2024-05-13", 
                 messages=messages,
                 response_format={"type": "json_object"}
             )
